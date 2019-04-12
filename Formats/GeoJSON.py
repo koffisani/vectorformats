@@ -52,7 +52,7 @@ class GeoJSON(Format):
                       }
         
         if to_string:
-            result = json_dumps(list(result_data))
+            result = json_dumps(result_data)
         else:
             result = result_data
         return result
